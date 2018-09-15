@@ -16,19 +16,19 @@ All endpoints (also the parameters they take and responses they provide) are lis
 ### POST userPrefencesUpdate
 ##### Request:
 ```
-AuthToken: string,
-id: String,
-date_pref: String,
-ethnicity: String,
-height: String,
-kids: String,
-que_ans: String,
-que_id: String,
+AuthToken: string
+id: String
+date_pref: String
+ethnicity: String
+height: String
+kids: String
+que_ans: String
+que_id: String
 religion: String,
-gender_pref: String,
-max_age_pref: String,
-max_dist_pref: String,
-min_age_pref: String,
+gender_pref: String
+max_age_pref: String
+max_dist_pref: String
+min_age_pref: String
 min_dist_pref: String
 ```
 
@@ -39,3 +39,17 @@ min_dist_pref: String
 }
 ```
 
+### POST edit_gallery_images
+##### Request:
+```
+AuthToken: string,
+id: String,
+key: File [image/jpg]
+```
+
+##### Response:
+```json
+{
+  
+}
+```
