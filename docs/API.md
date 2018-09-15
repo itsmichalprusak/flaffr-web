@@ -68,3 +68,16 @@ device_token: String,
   
 }
 ```
+
+### POST get_all_configuration
+##### Request:
+```
+no params
+```
+
+##### Response:
+```json
+{
+  
+}
+```
