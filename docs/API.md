@@ -1,6 +1,7 @@
 # Flaffr API documentation
 Base URL: `flaffr.com/panel/api/`
-All endpoints (also the parameters they take and responses they provide) ale listed below.
+
+All endpoints (also the parameters they take and responses they provide) are listed below.
 
 ## Error format
 ```json
