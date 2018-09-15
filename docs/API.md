@@ -42,9 +42,24 @@ min_dist_pref: String
 ### POST edit_gallery_images
 ##### Request:
 ```
-AuthToken: string,
-id: String,
+AuthToken: String
+id: String
 key: File [image/jpg]
+```
+
+##### Response:
+```json
+{
+  
+}
+```
+
+### POST updatetoken
+##### Request:
+```
+AuthToken: String
+userid: String
+device_token: String,
 ```
 
 ##### Response:
