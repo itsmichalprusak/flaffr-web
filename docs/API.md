@@ -81,3 +81,16 @@ no params
   
 }
 ```
+
+### POST send_email
+##### Request:
+```
+email: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
