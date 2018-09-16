@@ -24,3 +24,4 @@ POST getblockstatus = ```com.potenza.example.activity.HomeActivity.java```
 POST getNotificationCount = ```com.potenza.example.activity.HomeActivity.java```
 POST getuserdetails = ```com.potenza.example.activity.FriendProfileActivity.java```
 POST get_all_static = ```com.potenza.example.activity.FriendProfileActivity.java```
+POST GetInstagramImages = ```com.potenza.example.activity.FriendProfileActivity.java```

@@ -372,3 +372,18 @@ language: String
   
 }
 ```
+
+### POST GetInstagramImages
+##### Request:
+```
+AuthToken: String
+friendid: String
+userid: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
