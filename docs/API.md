@@ -302,3 +302,17 @@ friendid: String
   
 }
 ```
+
+### POST chat
+##### Request:
+```
+AuthToken: String
+id: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
