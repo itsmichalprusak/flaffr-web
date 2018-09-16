@@ -169,9 +169,15 @@ no params
 ```
 
 ##### Response:
-```json
+```
 {
-  
+    "error": false,
+    "language": [
+        {
+          "name": "english",
+          "rtl": "0"
+        }
+    ]
 }
 ```
 
