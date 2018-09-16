@@ -271,3 +271,19 @@ report_to_id: String
   
 }
 ```
+
+### POST blockuser
+##### Request:
+```
+AuthToken: String
+id: String
+blockid: String
+blockstatus: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
