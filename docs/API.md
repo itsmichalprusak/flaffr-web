@@ -148,3 +148,16 @@ referal_code: String
   
 }
 ```
+
+### POST verified_referal_code
+##### Request:
+```
+referal_code
+```
+
+##### Response:
+```json
+{
+  
+}
+```
