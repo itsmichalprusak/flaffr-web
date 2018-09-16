@@ -287,3 +287,18 @@ blockstatus: String
   
 }
 ```
+
+### POST userUnfriend
+##### Request:
+```
+AuthToken: String
+id: String
+friendid: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
