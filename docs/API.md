@@ -200,3 +200,16 @@ profession: String
   
 }
 ```
+
+### POST forgot_password
+##### Request:
+```
+email: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```

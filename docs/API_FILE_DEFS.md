@@ -12,3 +12,4 @@ POST register = ```com.potenza.example.activity.SingUpActivity.java```
 POST verified_referal_code = ```com.potenza.example.activity.ReferralCheckActivity.java```
 POST all_languages = ```com.potenza.example.activity.LoginOrSignUpActivity.java```
 POST loginwithfb = ```com.potenza.example.activity.LoginOrSignUpActivity.java```
+POST forgot_password = ```com.potenza.example.activity.LoginActivity.java```
