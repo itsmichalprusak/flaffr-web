@@ -316,3 +316,17 @@ id: String
   
 }
 ```
+
+### POST getblockstatus
+##### Request:
+```
+AuthToken: String
+id: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```

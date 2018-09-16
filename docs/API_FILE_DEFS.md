@@ -20,4 +20,4 @@ POST reporteuser = ```com.potenza.example.activity.HomeActivity.java```
 POST blockuser = ```com.potenza.example.activity.HomeActivity.java```
 POST userUnfriend = ```com.potenza.example.activity.HomeActivity.java```
 POST chat = ```com.potenza.example.activity.HomeActivity.java```
-```com.potenza.example.activity.HomeActivity.java```
+POST getblockstatus = ```com.potenza.example.activity.HomeActivity.java```
