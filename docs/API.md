@@ -387,3 +387,17 @@ userid: String
   
 }
 ```
+
+### POST get_dashboard
+##### Request:
+```
+user_id: String
+is_agency: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
