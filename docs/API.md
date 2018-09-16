@@ -108,7 +108,9 @@ email: String
 ##### Response:
 ```json
 {
-  
+    "error": false,
+    "message": "Verification code has been sent to your registered Email address..",
+    "verification_code": 1781
 }
 ```
 
