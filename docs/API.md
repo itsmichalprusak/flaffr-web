@@ -256,3 +256,18 @@ id: String
   
 }
 ```
+
+### POST reporteuser
+##### Request:
+```
+AuthToken: String
+id: String
+report_to_id: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```

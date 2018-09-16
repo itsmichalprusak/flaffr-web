@@ -16,3 +16,4 @@ POST forgot_password = ```com.potenza.example.activity.LoginActivity.java```
 POST login = ```com.potenza.example.activity.LoginActivity.java```
 GET instagram_images = ```com.potenza.example.activity.InstagramImagesActivity.java```
 POST api_logout = ```com.potenza.example.activity.HomeActivity.java```
+POST reporteuser = ```com.potenza.example.activity.HomeActivity.java```
