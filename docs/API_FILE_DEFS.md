@@ -14,3 +14,4 @@ POST all_languages = ```com.potenza.example.activity.LoginOrSignUpActivity.java`
 POST loginwithfb = ```com.potenza.example.activity.LoginOrSignUpActivity.java```
 POST forgot_password = ```com.potenza.example.activity.LoginActivity.java```
 POST login = ```com.potenza.example.activity.LoginActivity.java```
+GET instagram_images = ```com.potenza.example.InstagramImagesActivity.java```
