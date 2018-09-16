@@ -344,3 +344,18 @@ id: String
   
 }
 ```
+
+### POST getuserdetails
+##### Request:
+```
+AuthToken: String
+id: String
+userid: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
