@@ -124,7 +124,8 @@ verification_code: String
 ##### Response:
 ```json
 {
-  
+    "error": false,
+    "message": "User has been verified."
 }
 ```
 
