@@ -174,3 +174,29 @@ no params
   
 }
 ```
+
+### POST loginwithfb
+##### Request:
+```
+Status: String
+about: String
+access_location: String
+device: String
+device_token: String
+dob: String
+education: String
+email: String
+fb_id: String
+fname: String
+lname: String
+location_lat: String
+location_long: String
+profession: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
