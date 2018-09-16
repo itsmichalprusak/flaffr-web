@@ -213,3 +213,19 @@ email: String
   
 }
 ```
+
+### POST login
+##### Request:
+```
+email: String
+password: String
+device: String
+device_token: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
