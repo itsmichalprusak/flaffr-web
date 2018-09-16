@@ -242,3 +242,17 @@ AuthToken: String
   
 }
 ```
+
+### POST api_logout
+##### Request:
+```
+AuthToken: String
+id: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
