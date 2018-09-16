@@ -330,3 +330,17 @@ id: String
   
 }
 ```
+
+### POST getNotificationCount
+##### Request:
+```
+AuthToken: String
+id: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```

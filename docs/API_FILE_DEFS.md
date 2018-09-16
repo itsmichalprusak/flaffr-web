@@ -21,3 +21,4 @@ POST blockuser = ```com.potenza.example.activity.HomeActivity.java```
 POST userUnfriend = ```com.potenza.example.activity.HomeActivity.java```
 POST chat = ```com.potenza.example.activity.HomeActivity.java```
 POST getblockstatus = ```com.potenza.example.activity.HomeActivity.java```
+POST getNotificationCount = ```com.potenza.example.activity.HomeActivity.java```
