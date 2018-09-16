@@ -359,3 +359,16 @@ userid: String
   
 }
 ```
+
+### POST get_all_static
+##### Request:
+```
+language: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
