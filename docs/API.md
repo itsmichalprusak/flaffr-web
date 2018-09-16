@@ -152,7 +152,20 @@ referal_code: String
 ### POST verified_referal_code
 ##### Request:
 ```
-referal_code
+referal_code: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
+
+### POST all_languages
+##### Request:
+```
+no params
 ```
 
 ##### Response:
