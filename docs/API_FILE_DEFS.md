@@ -8,3 +8,4 @@ POST update_token = ```com.potenza.example.activity.SplashActivity.java```
 POST get_all_configuration = ```com.potenza.example.activity.SplashActivity.java```
 POST send_email = ```com.potenza.example.activity.SingUpActivity.java```
 POST email_verification = ```com.potenza.example.activity.SingUpActivity.java```
+POST register = ```com.potenza.example.activity.SingUpActivity.java```

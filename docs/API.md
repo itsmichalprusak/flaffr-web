@@ -108,3 +108,43 @@ verification_code: String
   
 }
 ```
+
+### POST register
+##### Request:
+```
+about: String
+access_location: String
+date_pref: String
+device: String
+device_token: String
+dob: String
+education: String
+email: String
+ethnicity: String
+fname: String
+gender: String
+height: String
+kids: String
+lname: String
+location_lat: String
+location_long: String
+max_age_pref: String
+max_dist_pref: String
+min_age_pref: String
+min_dist_pref: String
+password: String
+profession: String
+profile_image: String
+que_ans: String
+que_id: String
+religion: String
+status: String
+referal_code: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
