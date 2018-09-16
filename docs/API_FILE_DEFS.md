@@ -26,3 +26,4 @@ POST getuserdetails = ```com.potenza.example.activity.FriendProfileActivity.java
 POST get_all_static = ```com.potenza.example.activity.FriendProfileActivity.java```
 POST GetInstagramImages = ```com.potenza.example.activity.FriendProfileActivity.java```
 POST get_dashboard = ```com.potenza.example.activity.Friend_Profile_Main.java```
+POST getagency = ```com.potenza.example.activity.Friend_Profile_Main.java```

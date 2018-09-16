@@ -401,3 +401,16 @@ is_agency: String
   
 }
 ```
+
+### POST getagency
+##### Request:
+```
+userid: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
