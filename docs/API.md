@@ -203,7 +203,7 @@ profession: String
 ##### Response:
 ```json
 {
-  
+
 }
 ```
 
@@ -216,7 +216,8 @@ email: String
 ##### Response:
 ```json
 {
-  
+    "error": false,
+    "message": "We have sent you an email containing password reset information.  Please follow it to reset your password."
 }
 ```
 
