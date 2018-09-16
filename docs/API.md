@@ -94,3 +94,17 @@ email: String
   
 }
 ```
+
+### POST email_verification
+##### Request:
+```
+email: String
+verification_code: String
+```
+
+##### Response:
+```json
+{
+  
+}
+```
