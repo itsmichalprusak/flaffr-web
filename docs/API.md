@@ -78,7 +78,24 @@ no params
 ##### Response:
 ```json
 {
-  
+    "GOOGLE_PLACE_API_KEY": "AIzaSyDHceMFyruLORuJBNsKQjCYPpBRhQnh_y8",
+    "FACEBOOK_KEY": "420526411756660",
+    "XMPP_ENABLE": "true",
+    "APP_XMPP_SERVER": "",
+    "APP_XMPP_HOST": "",
+    "XMPP_DEFAULT_PASSWORD": "",
+    "PUSH_ENABLE_SANDBOX": "",
+    "PUSH_SANDBOX_GATEWAY_URL": "",
+    "PUSH_GATEWAY_URL": "",
+    "ANDROID_FCM_KEY": "",
+    "INSTAGRAM_CALLBACK_BASE": "",
+    "INSTAGRAM_CLIENT_SECRET": "",
+    "INSTAGRAM_CLIENT_ID": "",
+    "adMobKey": "",
+    "adMobVideoKey": "",
+    "RemoveAddInAppPurchase": "",
+    "RemoveAddInAppBilling": "",
+    "TermsAndConditionsUrl": "http://localhost/cuplove/install/user/privacy"
 }
 ```
 
