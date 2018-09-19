@@ -165,7 +165,8 @@ referal_code: String
 ##### Response:
 ```json
 {
-  
+    "error": true,
+    "message": "Please verified your email address."
 }
 ```
 
