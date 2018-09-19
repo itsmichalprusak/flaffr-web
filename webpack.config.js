@@ -1,6 +1,6 @@
 const path = require('path')
 const config = {
-  entry: ['./src/app.tsx'], // TODO: Review the app startpoint
+  entry: ['./src/App.tsx'],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'flaffr-bundled.js'
