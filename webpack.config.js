@@ -5,6 +5,9 @@ const config = {
     path: path.resolve(__dirname, 'build'),
     filename: 'flaffr-bundled.js'
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'] // https://github.com/ahfarmer/minimal-react-starter/issues/4
+  },
   module: {
     rules: [
       { test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/ }
