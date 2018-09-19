@@ -14,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/michalprusakx/flaffr-web/issues"
   },
-  "homepage": "https://github.com/michalprusakx/flaffr-web#readme"
+  "homepage": "https://github.com/michalprusakx/flaffr-web#readme",
+  "dependencies": {
+    "ts-loader": "^5.1.1",
+    "webpack": "^4.19.1"
+  }
 }
