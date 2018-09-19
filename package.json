@@ -23,5 +23,8 @@
     "react-dom": "^16.5.2",
     "ts-loader": "^5.1.1",
     "webpack": "^4.19.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
   }
 }
