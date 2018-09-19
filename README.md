@@ -1,2 +1,2 @@
 # flaffr-web
-Flaffr.com web client
+Flaffr.com web client.
