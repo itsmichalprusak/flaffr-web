@@ -4,6 +4,7 @@
   "description": "Flaffr.com web client.",
   "private": true,
   "scripts": {
+    "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
