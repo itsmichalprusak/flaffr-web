@@ -6,6 +6,9 @@ const config = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'flaffr.bundle.js'
   },
+  devServer: {
+    contentBase: './dist'
+  },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'] // https://github.com/ahfarmer/minimal-react-starter/issues/4
   },
