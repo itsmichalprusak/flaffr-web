@@ -7,7 +7,7 @@ import * as ReactDOM from 'react-dom'
  */
 ReactDOM.render(
     <div>
-        <h1>Hello world.</h1>
+        <h1>Hello world!</h1>
     </div>,
     document.getElementById('root') // The element we are mounting the virtual DOM on
 )
