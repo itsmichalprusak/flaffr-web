@@ -16,11 +16,6 @@ const config = {
   module: {
     rules: [
       { test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/ },
-      /*
-       * Style loader creates style nodes from JS strings,
-       * CSS loader translates CSS into CommonJS
-       * and Sass loader compiles Sass to CSS, using Node Sass
-       */
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
@@ -31,7 +26,7 @@ const config = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('./flaffr.bundle.css')
+    new ExtractTextPlugin('./flaffr.bundle.css') // https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/701
   ]
 }
 
