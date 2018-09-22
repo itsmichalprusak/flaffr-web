@@ -14,8 +14,13 @@ const config = {
   },
   module: {
     rules: [
-      { test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/ }
-      // TODO: Write rules and general support for SCSS
+      { test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/ },
+      /*
+       * Style loader creates style nodes from JS strings,
+       * CSS loader translates CSS into CommonJS
+       * and Sass loader compiles Sass to CSS, using Node Sass
+       */
+      { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] }
     ]
   }
 }
