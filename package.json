@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michalprusakx/flaffr-web.git"
+    "url": "git+https://github.com/malthaelx/flaffr-web.git"
   },
   "author": "Michał Prusak, Szymon Woźniak",
   "bugs": {
-    "url": "https://github.com/michalprusakx/flaffr-web/issues"
+    "url": "https://github.com/malthaelx/flaffr-web/issues"
   },
-  "homepage": "https://github.com/michalprusakx/flaffr-web#readme",
+  "homepage": "https://github.com/malthaelx/flaffr-web#readme",
   "dependencies": {
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.7",
