@@ -2,6 +2,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const path = require('path')
 
 const config = {
+  mode: 'production',
+  devtool: 'source-map',
   entry: ['./src/App.tsx', './src/styles/test.scss'],
   output: {
     path: path.resolve(__dirname, 'dist'),
