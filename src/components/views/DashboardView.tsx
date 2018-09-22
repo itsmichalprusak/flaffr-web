@@ -1,4 +1,14 @@
 import * as React from 'react'
+import {
+    BrowserRouter as Router,
+    Route,
+    Link,
+    Switch,
+    Redirect
+} from 'react-router-dom'
+import Navigation from "../Navigation";
+import Toolbar from "../Toolbar";
+import HomePage from "../pages/HomePage";
 
 /**
  * The main app container.
@@ -6,9 +16,16 @@ import * as React from 'react'
 export default class DashboardView extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Hallo Welt</h1>
-            </div>
+            <Router>
+                <div className={'dashboard'}>
+                    <Navigation/>
+                    <Toolbar/>
+                    <div className={'router'}>
+                        {/* Route declarations go below this line */}
+                        <Route exact path={'/'} component={HomePage}/>
+                    </div>
+                </div>
+            </Router>
         )
     }
 }
