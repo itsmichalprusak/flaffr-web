@@ -1,4 +1,6 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const path = require('path')
 
 const config = {
@@ -31,6 +33,14 @@ const config = {
     new ExtractTextPlugin('./flaffr.bundle.css') // https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/701
   ],
   optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        sourceMap: true
+      }),
+      new OptimizeCssAssetsPlugin({})
+    ],
     runtimeChunk: 'single',
     splitChunks: {
       cacheGroups: {
