@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import DashboardView from "./components/DashboardView";
+import DashboardView from "./components/views/DashboardView";
 
 /*
  * Get the React DOM and init our app.
