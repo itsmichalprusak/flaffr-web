@@ -1,7 +1,8 @@
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const path = require('path')
 
 const config = {
-  entry: ['./src/App.tsx'],
+  entry: ['./src/App.tsx', './src/styles/test.scss'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'flaffr.bundle.js'
@@ -22,7 +23,13 @@ const config = {
        */
       { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] }
     ]
-  }
+  },
+  plugins: [
+    new ExtractTextPlugin({
+      filename: 'flaffr.bundle.css',
+      allChunks: true
+    })
+  ]
 }
 
 module.exports = config
