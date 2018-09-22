@@ -27,6 +27,8 @@
     "object-assign": "^4.1.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "ts-loader": "^5.1.1",
     "typescript": "^3.0.3",
     "webpack": "^4.19.1"
