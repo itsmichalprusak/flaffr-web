@@ -7,7 +7,7 @@ const config = {
     filename: 'flaffr.bundle.js'
   },
   devServer: {
-    contentBase: './dist',
+    /*contentBase: './dist',*/
     hot: true
   },
   resolve: {
