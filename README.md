@@ -10,12 +10,11 @@ Then you can proceed to building the application.
 ```
 $ npm start
 ```
-The build output will be saved to the `dist/` directory as `flaffr-bundled.js`.
+The build output will be saved to the `dist/` directory as `flaffr.bundle.js`.
+Open the `index.html` file with a browser of choice and you will be able to use the app.
 
-Alternatively, you can start the webpack dev server to see the changes live:
-```
-$ npm run start:dev
-```
+~~Alternatively, you can start the webpack dev server to see the changes live.~~
+We are currently working on it.
 
 ### Documentation
 We do not have any documentation for the app, because writing such would be pointless.
