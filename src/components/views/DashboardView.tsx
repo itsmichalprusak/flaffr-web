@@ -3,7 +3,7 @@ import * as React from 'react'
 /**
  * The main app container.
  */
-export default class Dashboard extends React.Component {
+export default class DashboardView extends React.Component {
     render() {
         return (
             <div>
