@@ -21,14 +21,17 @@ const config = {
        * CSS loader translates CSS into CommonJS
        * and Sass loader compiles Sass to CSS, using Node Sass
        */
-      { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] }
+      {
+        test: /\.scss$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: ['css-loader', 'sass-loader']
+        })
+      }
     ]
   },
   plugins: [
-    new ExtractTextPlugin({
-      filename: 'flaffr.bundle.css',
-      allChunks: true
-    })
+    new ExtractTextPlugin('./flaffr.bundle.css')
   ]
 }
 
