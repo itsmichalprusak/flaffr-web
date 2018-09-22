@@ -6,7 +6,7 @@ import * as React from 'react'
 export default class AppMarshaller extends React.Component {
     render() {
         return (
-
+            <div/>
         )
     }
 }
