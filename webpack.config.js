@@ -5,7 +5,7 @@ const config = {
   entry: ['./src/App.tsx', './src/styles/test.scss'],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'flaffr.bundle.js'
+    filename: 'flaffr-[name].bundle.js'
   },
   devServer: {
     hot: true
@@ -27,7 +27,19 @@ const config = {
   },
   plugins: [
     new ExtractTextPlugin('./flaffr.bundle.css') // https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/701
-  ]
+  ],
+  optimization: {
+    runtimeChunk: 'single',
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all'
+        }
+      }
+    }
+  }
 }
 
 module.exports = config
