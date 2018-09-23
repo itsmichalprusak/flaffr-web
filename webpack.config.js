@@ -6,7 +6,7 @@ const path = require('path')
 const config = {
   mode: 'production',
   devtool: 'source-map',
-  entry: ['./src/App.tsx', './src/styles/test.scss'],
+  entry: ['./src/App.tsx', './src/styles/main.scss'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'flaffr-[name].bundle.js'
